@@ -1,0 +1,59 @@
+name: Mastodon trends
+
+on:
+  schedule:
+    # 17 minutes past the hour: GitHub's scheduler is heavily congested at :00,
+    # and off-peak minutes are dispatched far more punctually.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mastodon-trends
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch trending hashtags
+        env:
+          # Set as a repository variable (Settings > Secrets and variables >
+          # Actions > Variables). Comma-separated, no scheme.
+          MASTODON_SERVERS: ${{ vars.MASTODON_SERVERS || 'mastodon.social' }}
+          # Repository secret. JSON object: {"mastodon.social": "abc123"}
+          # Leave unset entirely if none of your servers require auth.
+          MASTODON_TOKENS: ${{ secrets.MASTODON_TOKENS }}
+          MASTODON_LIMIT: "20"
+          MASTODON_USER_AGENT: "mastodon-trends/1.0 (+https://github.com/${{ github.repository }})"
+        run: python scripts/fetch_mastodon_trends.py data/trends.json
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$(git status --porcelain data/)" ]]; then
+            echo "Trends unchanged; nothing to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore: update Mastodon trends"
+
+          # Rebase before pushing in case a manual run raced this one.
+          git pull --rebase --autostash
+          git push

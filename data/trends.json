@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T01:54:37+00:00",
+  "generated_at": "2026-08-27T17:41:43+00:00",
   "servers": {
     "hachyderm.io": {
       "ok": true,
@@ -7,51 +7,168 @@
       "tags": [
         {
           "rank": 1,
-          "name": "timcurry",
-          "url": "https://hachyderm.io/tags/timcurry",
-          "accounts_today": 22,
-          "uses_today": 25,
-          "accounts_week": 283,
-          "uses_week": 342
+          "name": "DogsWishListASong",
+          "url": "https://hachyderm.io/tags/dogswishlistasong",
+          "accounts_today": 86,
+          "uses_today": 332,
+          "accounts_week": 86,
+          "uses_week": 332
         },
         {
           "rank": 2,
-          "name": "meermittwoch",
-          "url": "https://hachyderm.io/tags/meermittwoch",
-          "accounts_today": 1,
-          "uses_today": 1,
-          "accounts_week": 106,
-          "uses_week": 113
+          "name": "timcurry",
+          "url": "https://hachyderm.io/tags/timcurry",
+          "accounts_today": 88,
+          "uses_today": 101,
+          "accounts_week": 349,
+          "uses_week": 418
         },
         {
           "rank": 3,
-          "name": "Nepal",
-          "url": "https://hachyderm.io/tags/Nepal",
-          "accounts_today": 13,
-          "uses_today": 15,
-          "accounts_week": 115,
-          "uses_week": 204
+          "name": "YayoiKusama",
+          "url": "https://hachyderm.io/tags/yayoikusama",
+          "accounts_today": 47,
+          "uses_today": 58,
+          "accounts_week": 47,
+          "uses_week": 58
         },
         {
           "rank": 4,
-          "name": "DogsWishListASong",
-          "url": "https://hachyderm.io/tags/dogswishlistasong",
-          "accounts_today": 58,
-          "uses_today": 231,
-          "accounts_week": 58,
-          "uses_week": 231
+          "name": "doorsday",
+          "url": "https://hachyderm.io/tags/doorsday",
+          "accounts_today": 42,
+          "uses_today": 46,
+          "accounts_week": 51,
+          "uses_week": 60
         },
         {
           "rank": 5,
-          "name": "dollyparton",
-          "url": "https://hachyderm.io/tags/dollyparton",
-          "accounts_today": 16,
-          "uses_today": 16,
-          "accounts_week": 879,
-          "uses_week": 1239
+          "name": "thursdayfivelist",
+          "url": "https://hachyderm.io/tags/thursdayfivelist",
+          "accounts_today": 39,
+          "uses_today": 48,
+          "accounts_week": 43,
+          "uses_week": 55
         },
         {
           "rank": 6,
+          "name": "working925",
+          "url": "https://hachyderm.io/tags/working925",
+          "accounts_today": 36,
+          "uses_today": 43,
+          "accounts_week": 36,
+          "uses_week": 43
+        },
+        {
+          "rank": 7,
+          "name": "musiquinta",
+          "url": "https://hachyderm.io/tags/musiquinta",
+          "accounts_today": 30,
+          "uses_today": 67,
+          "accounts_week": 35,
+          "uses_week": 76
+        },
+        {
+          "rank": 8,
+          "name": "meermittwoch",
+          "url": "https://hachyderm.io/tags/meermittwoch",
+          "accounts_today": 3,
+          "uses_today": 3,
+          "accounts_week": 108,
+          "uses_week": 115
+        },
+        {
+          "rank": 9,
+          "name": "petercullen",
+          "url": "https://hachyderm.io/tags/petercullen",
+          "accounts_today": 22,
+          "uses_today": 24,
+          "accounts_week": 22,
+          "uses_week": 24
+        },
+        {
+          "rank": 10,
+          "name": "Nepal",
+          "url": "https://hachyderm.io/tags/Nepal",
+          "accounts_today": 114,
+          "uses_today": 234,
+          "accounts_week": 216,
+          "uses_week": 423
+        },
+        {
+          "rank": 11,
+          "name": "Mladic",
+          "url": "https://hachyderm.io/tags/mladic",
+          "accounts_today": 19,
+          "uses_today": 23,
+          "accounts_week": 19,
+          "uses_week": 23
+        },
+        {
+          "rank": 12,
+          "name": "throwbackthursday",
+          "url": "https://hachyderm.io/tags/throwbackthursday",
+          "accounts_today": 44,
+          "uses_today": 46,
+          "accounts_week": 54,
+          "uses_week": 56
+        },
+        {
+          "rank": 13,
+          "name": "xkcd",
+          "url": "https://hachyderm.io/tags/xkcd",
+          "accounts_today": 15,
+          "uses_today": 15,
+          "accounts_week": 31,
+          "uses_week": 35
+        },
+        {
+          "rank": 14,
+          "name": "dollyparton",
+          "url": "https://hachyderm.io/tags/dollyparton",
+          "accounts_today": 100,
+          "uses_today": 128,
+          "accounts_week": 963,
+          "uses_week": 1351
+        },
+        {
+          "rank": 15,
+          "name": "bosnia",
+          "url": "https://hachyderm.io/tags/bosnia",
+          "accounts_today": 12,
+          "uses_today": 15,
+          "accounts_week": 17,
+          "uses_week": 23
+        },
+        {
+          "rank": 16,
+          "name": "transformers",
+          "url": "https://hachyderm.io/tags/transformers",
+          "accounts_today": 30,
+          "uses_today": 34,
+          "accounts_week": 61,
+          "uses_week": 78
+        },
+        {
+          "rank": 17,
+          "name": "optimusprime",
+          "url": "https://hachyderm.io/tags/optimusprime",
+          "accounts_today": 12,
+          "uses_today": 13,
+          "accounts_week": 14,
+          "uses_week": 15
+        },
+        {
+          "rank": 18,
+          "name": "kusama",
+          "url": "https://hachyderm.io/tags/kusama",
+          "accounts_today": 11,
+          "uses_today": 13,
+          "accounts_week": 11,
+          "uses_week": 13
+        },
+        {
+          "rank": 19,
           "name": "KissAndMakeUpASong",
           "url": "https://hachyderm.io/tags/kissandmakeupasong",
           "accounts_today": 0,
@@ -60,130 +177,13 @@
           "uses_week": 184
         },
         {
-          "rank": 7,
-          "name": "RIPTimCurry",
-          "url": "https://hachyderm.io/tags/riptimcurry",
-          "accounts_today": 4,
-          "uses_today": 5,
-          "accounts_week": 44,
-          "uses_week": 52
-        },
-        {
-          "rank": 8,
-          "name": "internationaldogday",
-          "url": "https://hachyderm.io/tags/internationaldogday",
-          "accounts_today": 3,
-          "uses_today": 3,
-          "accounts_week": 40,
-          "uses_week": 56
-        },
-        {
-          "rank": 9,
-          "name": "tibet",
-          "url": "https://hachyderm.io/tags/tibet",
-          "accounts_today": 4,
-          "uses_today": 5,
-          "accounts_week": 40,
-          "uses_week": 66
-        },
-        {
-          "rank": 10,
-          "name": "seawednesday",
-          "url": "https://hachyderm.io/tags/seawednesday",
-          "accounts_today": 0,
-          "uses_today": 0,
-          "accounts_week": 43,
-          "uses_week": 46
-        },
-        {
-          "rank": 11,
-          "name": "rockyhorror",
-          "url": "https://hachyderm.io/tags/rockyhorror",
-          "accounts_today": 1,
-          "uses_today": 1,
-          "accounts_week": 26,
-          "uses_week": 26
-        },
-        {
-          "rank": 12,
-          "name": "meta",
-          "url": "https://hachyderm.io/tags/meta",
-          "accounts_today": 9,
-          "uses_today": 9,
-          "accounts_week": 335,
-          "uses_week": 389
-        },
-        {
-          "rank": 13,
-          "name": "nationaldogday",
-          "url": "https://hachyderm.io/tags/nationaldogday",
-          "accounts_today": 2,
-          "uses_today": 2,
-          "accounts_week": 20,
-          "uses_week": 20
-        },
-        {
-          "rank": 14,
-          "name": "RockyHorrorPictureShow",
-          "url": "https://hachyderm.io/tags/RockyHorrorPictureShow",
-          "accounts_today": 1,
-          "uses_today": 1,
-          "accounts_week": 22,
-          "uses_week": 24
-        },
-        {
-          "rank": 15,
-          "name": "wipwednesday",
-          "url": "https://hachyderm.io/tags/wipwednesday",
-          "accounts_today": 1,
-          "uses_today": 1,
-          "accounts_week": 19,
-          "uses_week": 20
-        },
-        {
-          "rank": 16,
-          "name": "whiskerswednesday",
-          "url": "https://hachyderm.io/tags/whiskerswednesday",
-          "accounts_today": 4,
-          "uses_today": 4,
-          "accounts_week": 29,
-          "uses_week": 29
-        },
-        {
-          "rank": 17,
-          "name": "BillGates",
-          "url": "https://hachyderm.io/tags/BillGates",
-          "accounts_today": 0,
-          "uses_today": 0,
-          "accounts_week": 19,
-          "uses_week": 23
-        },
-        {
-          "rank": 18,
-          "name": "LesserKnownFestivals",
-          "url": "https://hachyderm.io/tags/lesserknownfestivals",
-          "accounts_today": 0,
-          "uses_today": 0,
-          "accounts_week": 105,
-          "uses_week": 472
-        },
-        {
-          "rank": 19,
-          "name": "musicwomenwednesday",
-          "url": "https://hachyderm.io/tags/musicwomenwednesday",
-          "accounts_today": 0,
-          "uses_today": 0,
-          "accounts_week": 25,
-          "uses_week": 36
-        },
-        {
           "rank": 20,
-          "name": "AutisticiInventati",
-          "url": "https://hachyderm.io/tags/autisticiinventati",
-          "accounts_today": 1,
-          "uses_today": 2,
-          "accounts_week": 15,
-          "uses_week": 18
+          "name": "nazi",
+          "url": "https://hachyderm.io/tags/nazi",
+          "accounts_today": 11,
+          "uses_today": 12,
+          "accounts_week": 36,
+          "uses_week": 39
         }
       ]
     }

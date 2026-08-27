@@ -1,25 +1,21 @@
-## Getting a Mastodon bearer token
+# Mastodon trends fetcher
+
+Simple Python script that fetches current trending hashtags from
+Mastodon instances and outputs them in a JSON format. This is set up to
+run as a scheduled GitHub Action, whenever GitHub deigns to run the
+workflow (or you do it manually out of frustration).
+
+## Getting bearer tokens
+
+Run:
 
 ```bash
-curl -X POST https://<MASTODON-HOST>/api/v1/apps \
-  -d client_name="trends-fetcher" \
-  -d redirect_uris="urn:ietf:wg:oauth:2.0:oob" \
-  -d scopes="read:statuses" \
-| jq .
+scripts/get-tokens.sh MASTODON_HOST [MASTODON_HOST ...] |
+| tee tokens.json
 ```
 
-then, replacing the `client_id` and `client_secret` values in the
-following command with the values returned from the previous command:
-
-```bash
-curl -X POST https://<MASTODON-HOST>/oauth/token \
-  -d client_id="..." \
-  -d client_secret="..." \
-  -d grant_type="client_credentials" \
-  -d scope="read:statuses" \
-| jq .
-```
-
-This will return a JSON object containing an `access_token` field, which
-is your bearer token. You can use this token to authenticate requests to
-the Mastodon API.
+where `MASTODON_HOST` is the domain of the Mastodon instance for which
+you need bearer tokens for the trends fetcher. The script will output a
+JSON file with `MASTODON_HOST` as the key and the bearer token as the
+value; this can be copied as the `MASTODON_TOKENS` GitHub secret for the
+fetcher action.

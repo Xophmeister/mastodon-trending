@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Fetch trending hashtags from one or more Mastodon servers.
 
 Writes a single JSON document that downstream consumers can read over raw
@@ -68,7 +67,11 @@ def _get_with_retries(url: str, token: str | None) -> list:
             if exc.code in (429, 500, 502, 503, 504) and attempt < MAX_RETRIES - 1:
                 retry_after = exc.headers.get("Retry-After") if exc.headers else None
                 try:
-                    delay = int(retry_after) if retry_after else BACKOFF_SECONDS * (2**attempt)
+                    delay = (
+                        int(retry_after)
+                        if retry_after
+                        else BACKOFF_SECONDS * (2**attempt)
+                    )
                 except ValueError:
                     delay = BACKOFF_SECONDS * (2**attempt)
                 print(f"  HTTP {exc.code}, retrying in {delay}s", file=sys.stderr)
@@ -108,7 +111,7 @@ def fetch_server(host: str, token: str | None, limit: int) -> list[dict]:
                 )
                 raise FetchError(f"HTTP {exc.code}: {hint}") from exc
             raise FetchError(f"HTTP {exc.code}: {exc.reason}") from exc
-        except Exception as exc:  # noqa: BLE001 - reported, not swallowed
+        except Exception as exc:
             raise FetchError(f"{type(exc).__name__}: {exc}") from exc
 
     raise FetchError(f"no trends endpoint found: {last_error}")
@@ -161,7 +164,7 @@ def load_tokens() -> dict[str, str]:
         tokens = json.loads(raw)
     except json.JSONDecodeError:
         print(
-            "MASTODON_TOKENS is not valid JSON; expected {\"host\": \"token\"}. "
+            'MASTODON_TOKENS is not valid JSON; expected {"host": "token"}. '
             "Continuing without tokens.",
             file=sys.stderr,
         )

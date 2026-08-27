@@ -2,9 +2,10 @@ name: Mastodon trends
 
 on:
   schedule:
-    # 17 minutes past the hour: GitHub's scheduler is heavily congested at :00,
-    # and off-peak minutes are dispatched far more punctually.
-    - cron: "17 * * * *"
+    # Twice a day, at an off-peak minute: GitHub's scheduler is heavily
+    # congested at :00 and on the hour, and drops runs it cannot dispatch
+    # rather than queueing them. Odd minutes are dispatched far more reliably.
+    - cron: "23 6,18 * * *"
   workflow_dispatch:
 
 permissions:
@@ -21,10 +22,10 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -49,10 +50,13 @@ jobs:
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Attribute the commit to the repository owner rather than the
+          # Actions bot. The ID-prefixed noreply address is always associated
+          # with the account, so GitHub links and counts the commit correctly.
+          git config user.name "Christopher Harrison"
+          git config user.email "384987+Xophmeister@users.noreply.github.com"
           git add data/
-          git commit -m "chore: update Mastodon trends"
+          git commit -m "Update Mastodon trends"
 
           # Rebase before pushing in case a manual run raced this one.
           git pull --rebase --autostash

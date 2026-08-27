@@ -31,15 +31,12 @@ jobs:
 
       - name: Fetch trending hashtags
         env:
-          # Set as a repository variable (Settings > Secrets and variables >
-          # Actions > Variables). Comma-separated, no scheme.
-          MASTODON_SERVERS: ${{ vars.MASTODON_SERVERS || 'mastodon.social' }}
-          # Repository secret. JSON object: {"mastodon.social": "abc123"}
-          # Leave unset entirely if none of your servers require auth.
+          # REQUIRED A JSON object mapping Mastodon instances to bearer
+          # tokens. (See README.md for how to generate this.)
           MASTODON_TOKENS: ${{ secrets.MASTODON_TOKENS }}
           MASTODON_LIMIT: "20"
           MASTODON_USER_AGENT: "mastodon-trends/1.0 (+https://github.com/${{ github.repository }})"
-        run: python scripts/fetch_mastodon_trends.py data/trends.json
+        run: scripts/fetch-mastodon-trends.py data/trends.json
 
       - name: Commit and push if changed
         run: |
@@ -50,9 +47,7 @@ jobs:
             exit 0
           fi
 
-          # Attribute the commit to the repository owner rather than the
-          # Actions bot. The ID-prefixed noreply address is always associated
-          # with the account, so GitHub links and counts the commit correctly.
+          # Attribute the commit to me rather than the GitHub robot.
           git config user.name "Christopher Harrison"
           git config user.email "384987+Xophmeister@users.noreply.github.com"
           git add data/

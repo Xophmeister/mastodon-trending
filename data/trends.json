@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:54:52+00:00",
+  "generated_at": "2026-10-14T12:06:10+00:00",
   "servers": {
     "mastodon.social": {
       "ok": true,
@@ -7,183 +7,183 @@
       "tags": [
         {
           "rank": 1,
-          "name": "truckdrivingsongs",
-          "url": "https://mastodon.social/tags/truckdrivingsongs",
-          "accounts_today": 79,
-          "uses_today": 126,
-          "accounts_week": 79,
-          "uses_week": 126
+          "name": "MeerMittwoch",
+          "url": "https://mastodon.social/tags/meermittwoch",
+          "accounts_today": 61,
+          "uses_today": 62,
+          "accounts_week": 73,
+          "uses_week": 74
         },
         {
           "rank": 2,
-          "name": "PortfolioDay",
-          "url": "https://mastodon.social/tags/portfolioday",
-          "accounts_today": 146,
-          "uses_today": 156,
-          "accounts_week": 152,
-          "uses_week": 162
+          "name": "FrustratedCartoons",
+          "url": "https://mastodon.social/tags/frustratedcartoons",
+          "accounts_today": 64,
+          "uses_today": 277,
+          "accounts_week": 64,
+          "uses_week": 277
         },
         {
           "rank": 3,
-          "name": "TextureTuesday",
-          "url": "https://mastodon.social/tags/texturetuesday",
-          "accounts_today": 67,
-          "uses_today": 76,
-          "accounts_week": 75,
-          "uses_week": 84
+          "name": "PortfolioDay",
+          "url": "https://mastodon.social/tags/portfolioday",
+          "accounts_today": 22,
+          "uses_today": 22,
+          "accounts_week": 179,
+          "uses_week": 191
         },
         {
           "rank": 4,
-          "name": "TuneTuesday",
-          "url": "https://mastodon.social/tags/tunetuesday",
-          "accounts_today": 76,
-          "uses_today": 129,
-          "accounts_week": 83,
-          "uses_week": 140
+          "name": "truckdrivingsongs",
+          "url": "https://mastodon.social/tags/truckdrivingsongs",
+          "accounts_today": 4,
+          "uses_today": 4,
+          "accounts_week": 84,
+          "uses_week": 132
         },
         {
           "rank": 5,
-          "name": "PrankANeighborBooks",
-          "url": "https://mastodon.social/tags/prankaneighborbooks",
-          "accounts_today": 57,
-          "uses_today": 231,
-          "accounts_week": 57,
-          "uses_week": 231
+          "name": "TextureTuesday",
+          "url": "https://mastodon.social/tags/texturetuesday",
+          "accounts_today": 6,
+          "uses_today": 6,
+          "accounts_week": 77,
+          "uses_week": 86
         },
         {
           "rank": 6,
-          "name": "flimsy",
-          "url": "https://mastodon.social/tags/flimsy",
-          "accounts_today": 34,
-          "uses_today": 35,
-          "accounts_week": 34,
-          "uses_week": 35
+          "name": "SeaWednesday",
+          "url": "https://mastodon.social/tags/seawednesday",
+          "accounts_today": 22,
+          "uses_today": 22,
+          "accounts_week": 27,
+          "uses_week": 27
         },
         {
           "rank": 7,
-          "name": "ThickTrunkTuesday",
-          "url": "https://mastodon.social/tags/thicktrunktuesday",
-          "accounts_today": 48,
-          "uses_today": 63,
-          "accounts_week": 53,
-          "uses_week": 68
+          "name": "PrankANeighborBooks",
+          "url": "https://mastodon.social/tags/prankaneighborbooks",
+          "accounts_today": 0,
+          "uses_today": 0,
+          "accounts_week": 58,
+          "uses_week": 232
         },
         {
           "rank": 8,
-          "name": "80億分の1",
-          "url": "https://mastodon.social/tags/80%E5%84%84%E5%88%86%E3%81%AE1",
-          "accounts_today": 64,
-          "uses_today": 74,
-          "accounts_week": 69,
-          "uses_week": 80
+          "name": "過去に伸びた1枚を載せてまた伸びるのかチャレンジ",
+          "url": "https://mastodon.social/tags/%E9%81%8E%E5%8E%BB%E3%81%AB%E4%BC%B8%E3%81%B3%E3%81%9F1%E6%9E%9A%E3%82%92%E8%BC%89%E3%81%9B%E3%81%A6%E3%81%BE%E3%81%9F%E4%BC%B8%E3%81%B3%E3%82%8B%E3%81%AE%E3%81%8B%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8",
+          "accounts_today": 19,
+          "uses_today": 19,
+          "accounts_week": 19,
+          "uses_week": 19
         },
         {
           "rank": 9,
-          "name": "バーガータワー",
-          "url": "https://mastodon.social/tags/%E3%83%90%E3%83%BC%E3%82%AC%E3%83%BC%E3%82%BF%E3%83%AF%E3%83%BC",
-          "accounts_today": 53,
-          "uses_today": 94,
-          "accounts_week": 199,
-          "uses_week": 372
-        },
-        {
-          "rank": 10,
-          "name": "characterAI",
-          "url": "https://mastodon.social/tags/characterai",
-          "accounts_today": 21,
-          "uses_today": 28,
-          "accounts_week": 22,
-          "uses_week": 29
-        },
-        {
-          "rank": 11,
-          "name": "homeview",
-          "url": "https://mastodon.social/tags/homeview",
-          "accounts_today": 59,
-          "uses_today": 100,
-          "accounts_week": 77,
-          "uses_week": 124
-        },
-        {
-          "rank": 12,
-          "name": "AdaLovelaceDay",
-          "url": "https://mastodon.social/tags/adalovelaceday",
+          "name": "MusicWomenWednesday",
+          "url": "https://mastodon.social/tags/musicwomenwednesday",
           "accounts_today": 19,
-          "uses_today": 49,
-          "accounts_week": 19,
-          "uses_week": 49
-        },
-        {
-          "rank": 13,
-          "name": "gretathunberg",
-          "url": "https://mastodon.social/tags/gretathunberg",
-          "accounts_today": 20,
-          "uses_today": 21,
-          "accounts_week": 26,
-          "uses_week": 29
-        },
-        {
-          "rank": 14,
-          "name": "gretagerwig",
-          "url": "https://mastodon.social/tags/gretagerwig",
-          "accounts_today": 17,
-          "uses_today": 26,
-          "accounts_week": 19,
-          "uses_week": 28
-        },
-        {
-          "rank": 15,
-          "name": "tercinema",
-          "url": "https://mastodon.social/tags/tercinema",
-          "accounts_today": 19,
-          "uses_today": 32,
-          "accounts_week": 29,
-          "uses_week": 45
-        },
-        {
-          "rank": 16,
-          "name": "あ行に出てきたものがクリスマスもらえるらしい",
-          "url": "https://mastodon.social/tags/%E3%81%82%E8%A1%8C%E3%81%AB%E5%87%BA%E3%81%A6%E3%81%8D%E3%81%9F%E3%82%82%E3%81%AE%E3%81%8C%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E3%82%89%E3%81%97%E3%81%84",
-          "accounts_today": 16,
-          "uses_today": 16,
-          "accounts_week": 16,
-          "uses_week": 16
-        },
-        {
-          "rank": 17,
-          "name": "appletv4k",
-          "url": "https://mastodon.social/tags/appletv4k",
-          "accounts_today": 23,
-          "uses_today": 28,
-          "accounts_week": 31,
+          "uses_today": 20,
+          "accounts_week": 23,
           "uses_week": 36
         },
         {
-          "rank": 18,
-          "name": "katiezacharia",
-          "url": "https://mastodon.social/tags/katiezacharia",
-          "accounts_today": 21,
-          "uses_today": 33,
+          "rank": 10,
+          "name": "TuneTuesday",
+          "url": "https://mastodon.social/tags/tunetuesday",
+          "accounts_today": 3,
+          "uses_today": 3,
+          "accounts_week": 82,
+          "uses_week": 140
+        },
+        {
+          "rank": 11,
+          "name": "80億分の1",
+          "url": "https://mastodon.social/tags/80%E5%84%84%E5%88%86%E3%81%AE1",
+          "accounts_today": 55,
+          "uses_today": 78,
+          "accounts_week": 128,
+          "uses_week": 162
+        },
+        {
+          "rank": 12,
+          "name": "鉄道の日",
+          "url": "https://mastodon.social/tags/%E9%89%84%E9%81%93%E3%81%AE%E6%97%A5",
+          "accounts_today": 12,
+          "uses_today": 14,
+          "accounts_week": 13,
+          "uses_week": 15
+        },
+        {
+          "rank": 13,
+          "name": "dailyprompt2914",
+          "url": "https://mastodon.social/tags/dailyprompt2914",
+          "accounts_today": 17,
+          "uses_today": 17,
+          "accounts_week": 22,
+          "uses_week": 23
+        },
+        {
+          "rank": 14,
+          "name": "flimsy",
+          "url": "https://mastodon.social/tags/flimsy",
+          "accounts_today": 5,
+          "uses_today": 5,
           "accounts_week": 39,
-          "uses_week": 58
+          "uses_week": 41
+        },
+        {
+          "rank": 15,
+          "name": "memecredi",
+          "url": "https://mastodon.social/tags/memecredi",
+          "accounts_today": 10,
+          "uses_today": 17,
+          "accounts_week": 11,
+          "uses_week": 18
+        },
+        {
+          "rank": 16,
+          "name": "lady",
+          "url": "https://mastodon.social/tags/lady",
+          "accounts_today": 14,
+          "uses_today": 14,
+          "accounts_week": 20,
+          "uses_week": 20
+        },
+        {
+          "rank": 17,
+          "name": "ThickTrunkTuesday",
+          "url": "https://mastodon.social/tags/thicktrunktuesday",
+          "accounts_today": 4,
+          "uses_today": 4,
+          "accounts_week": 57,
+          "uses_week": 72
+        },
+        {
+          "rank": 18,
+          "name": "asml",
+          "url": "https://mastodon.social/tags/asml",
+          "accounts_today": 10,
+          "uses_today": 11,
+          "accounts_week": 16,
+          "uses_week": 17
         },
         {
           "rank": 19,
-          "name": "VFKFCB",
-          "url": "https://mastodon.social/tags/vfkfcb",
-          "accounts_today": 15,
-          "uses_today": 66,
-          "accounts_week": 16,
-          "uses_week": 67
+          "name": "characterAI",
+          "url": "https://mastodon.social/tags/characterai",
+          "accounts_today": 13,
+          "uses_today": 13,
+          "accounts_week": 36,
+          "uses_week": 43
         },
         {
           "rank": 20,
-          "name": "SiriAI",
-          "url": "https://mastodon.social/tags/siriai",
-          "accounts_today": 21,
-          "uses_today": 31,
-          "accounts_week": 32,
-          "uses_week": 42
+          "name": "WhiskersWednesday",
+          "url": "https://mastodon.social/tags/whiskerswednesday",
+          "accounts_today": 9,
+          "uses_today": 9,
+          "accounts_week": 12,
+          "uses_week": 12
         }
       ]
     },
@@ -193,183 +193,183 @@
       "tags": [
         {
           "rank": 1,
-          "name": "PortfolioDay",
-          "url": "https://hachyderm.io/tags/portfolioday",
-          "accounts_today": 117,
-          "uses_today": 125,
-          "accounts_week": 121,
-          "uses_week": 129
+          "name": "frustratedcartoons",
+          "url": "https://hachyderm.io/tags/frustratedcartoons",
+          "accounts_today": 61,
+          "uses_today": 257,
+          "accounts_week": 61,
+          "uses_week": 257
         },
         {
           "rank": 2,
-          "name": "truckdrivingsongs",
-          "url": "https://hachyderm.io/tags/truckdrivingsongs",
-          "accounts_today": 66,
-          "uses_today": 113,
-          "accounts_week": 66,
-          "uses_week": 113
+          "name": "meermittwoch",
+          "url": "https://hachyderm.io/tags/meermittwoch",
+          "accounts_today": 54,
+          "uses_today": 55,
+          "accounts_week": 67,
+          "uses_week": 68
         },
         {
           "rank": 3,
-          "name": "texturetuesday",
-          "url": "https://hachyderm.io/tags/texturetuesday",
-          "accounts_today": 62,
-          "uses_today": 71,
-          "accounts_week": 70,
-          "uses_week": 79
+          "name": "PortfolioDay",
+          "url": "https://hachyderm.io/tags/portfolioday",
+          "accounts_today": 22,
+          "uses_today": 22,
+          "accounts_week": 146,
+          "uses_week": 155
         },
         {
           "rank": 4,
-          "name": "tunetuesday",
-          "url": "https://hachyderm.io/tags/tunetuesday",
-          "accounts_today": 62,
-          "uses_today": 109,
-          "accounts_week": 75,
-          "uses_week": 126
+          "name": "truckdrivingsongs",
+          "url": "https://hachyderm.io/tags/truckdrivingsongs",
+          "accounts_today": 3,
+          "uses_today": 3,
+          "accounts_week": 71,
+          "uses_week": 118
         },
         {
           "rank": 5,
-          "name": "thicktrunktuesday",
-          "url": "https://hachyderm.io/tags/thicktrunktuesday",
-          "accounts_today": 41,
-          "uses_today": 56,
-          "accounts_week": 45,
-          "uses_week": 60
+          "name": "seawednesday",
+          "url": "https://hachyderm.io/tags/seawednesday",
+          "accounts_today": 20,
+          "uses_today": 20,
+          "accounts_week": 25,
+          "uses_week": 25
         },
         {
           "rank": 6,
-          "name": "flimsy",
-          "url": "https://hachyderm.io/tags/flimsy",
-          "accounts_today": 25,
-          "uses_today": 26,
-          "accounts_week": 25,
-          "uses_week": 26
+          "name": "PrankANeighborBooks",
+          "url": "https://hachyderm.io/tags/prankaneighborbooks",
+          "accounts_today": 0,
+          "uses_today": 0,
+          "accounts_week": 53,
+          "uses_week": 214
         },
         {
           "rank": 7,
-          "name": "PrankANeighborBooks",
-          "url": "https://hachyderm.io/tags/prankaneighborbooks",
-          "accounts_today": 52,
-          "uses_today": 213,
-          "accounts_week": 52,
-          "uses_week": 213
+          "name": "musicwomenwednesday",
+          "url": "https://hachyderm.io/tags/musicwomenwednesday",
+          "accounts_today": 18,
+          "uses_today": 19,
+          "accounts_week": 22,
+          "uses_week": 35
         },
         {
           "rank": 8,
-          "name": "homeview",
-          "url": "https://hachyderm.io/tags/homeview",
-          "accounts_today": 47,
-          "uses_today": 74,
-          "accounts_week": 63,
-          "uses_week": 96
+          "name": "texturetuesday",
+          "url": "https://hachyderm.io/tags/texturetuesday",
+          "accounts_today": 6,
+          "uses_today": 6,
+          "accounts_week": 74,
+          "uses_week": 83
         },
         {
           "rank": 9,
-          "name": "characterai",
-          "url": "https://hachyderm.io/tags/characterai",
-          "accounts_today": 14,
-          "uses_today": 19,
-          "accounts_week": 14,
-          "uses_week": 19
+          "name": "tunetuesday",
+          "url": "https://hachyderm.io/tags/tunetuesday",
+          "accounts_today": 2,
+          "uses_today": 2,
+          "accounts_week": 69,
+          "uses_week": 120
         },
         {
           "rank": 10,
-          "name": "siriai",
-          "url": "https://hachyderm.io/tags/siriai",
-          "accounts_today": 15,
-          "uses_today": 22,
-          "accounts_week": 24,
-          "uses_week": 31
+          "name": "nordstream",
+          "url": "https://hachyderm.io/tags/nordstream",
+          "accounts_today": 12,
+          "uses_today": 13,
+          "accounts_week": 21,
+          "uses_week": 22
         },
         {
           "rank": 11,
-          "name": "tercinema",
-          "url": "https://hachyderm.io/tags/tercinema",
-          "accounts_today": 16,
-          "uses_today": 26,
-          "accounts_week": 25,
-          "uses_week": 38
+          "name": "thicktrunktuesday",
+          "url": "https://hachyderm.io/tags/thicktrunktuesday",
+          "accounts_today": 4,
+          "uses_today": 4,
+          "accounts_week": 49,
+          "uses_week": 64
         },
         {
           "rank": 12,
-          "name": "adalovelaceday",
-          "url": "https://hachyderm.io/tags/adalovelaceday",
-          "accounts_today": 14,
-          "uses_today": 43,
-          "accounts_week": 15,
-          "uses_week": 44
+          "name": "memecredi",
+          "url": "https://hachyderm.io/tags/memecredi",
+          "accounts_today": 10,
+          "uses_today": 15,
+          "accounts_week": 11,
+          "uses_week": 16
         },
         {
           "rank": 13,
-          "name": "gretathunberg",
-          "url": "https://hachyderm.io/tags/gretathunberg",
-          "accounts_today": 14,
-          "uses_today": 15,
-          "accounts_week": 18,
-          "uses_week": 21
+          "name": "lady",
+          "url": "https://hachyderm.io/tags/lady",
+          "accounts_today": 9,
+          "uses_today": 9,
+          "accounts_week": 10,
+          "uses_week": 10
         },
         {
           "rank": 14,
-          "name": "katiezacharia",
-          "url": "https://hachyderm.io/tags/katiezacharia",
-          "accounts_today": 12,
-          "uses_today": 22,
-          "accounts_week": 21,
-          "uses_week": 34
-        },
-        {
-          "rank": 15,
-          "name": "DontAskASong",
-          "url": "https://hachyderm.io/tags/dontaskasong",
-          "accounts_today": 1,
-          "uses_today": 1,
-          "accounts_week": 61,
-          "uses_week": 227
-        },
-        {
-          "rank": 16,
-          "name": "applehomeview",
-          "url": "https://hachyderm.io/tags/applehomeview",
-          "accounts_today": 11,
-          "uses_today": 12,
-          "accounts_week": 14,
-          "uses_week": 15
-        },
-        {
-          "rank": 17,
-          "name": "AppleHome",
-          "url": "https://hachyderm.io/tags/AppleHome",
-          "accounts_today": 10,
-          "uses_today": 13,
-          "accounts_week": 15,
+          "name": "googleplay",
+          "url": "https://hachyderm.io/tags/googleplay",
+          "accounts_today": 8,
+          "uses_today": 8,
+          "accounts_week": 18,
           "uses_week": 18
         },
         {
+          "rank": 15,
+          "name": "flimsy",
+          "url": "https://hachyderm.io/tags/flimsy",
+          "accounts_today": 3,
+          "uses_today": 3,
+          "accounts_week": 28,
+          "uses_week": 30
+        },
+        {
+          "rank": 16,
+          "name": "whiskerswednesday",
+          "url": "https://hachyderm.io/tags/whiskerswednesday",
+          "accounts_today": 9,
+          "uses_today": 9,
+          "accounts_week": 13,
+          "uses_week": 13
+        },
+        {
+          "rank": 17,
+          "name": "homeview",
+          "url": "https://hachyderm.io/tags/homeview",
+          "accounts_today": 13,
+          "uses_today": 15,
+          "accounts_week": 78,
+          "uses_week": 115
+        },
+        {
           "rank": 18,
-          "name": "appleevent",
-          "url": "https://hachyderm.io/tags/appleevent",
-          "accounts_today": 10,
-          "uses_today": 13,
-          "accounts_week": 23,
-          "uses_week": 26
+          "name": "adalovelaceday",
+          "url": "https://hachyderm.io/tags/adalovelaceday",
+          "accounts_today": 1,
+          "uses_today": 1,
+          "accounts_week": 18,
+          "uses_week": 48
         },
         {
           "rank": 19,
-          "name": "appletv4k",
-          "url": "https://hachyderm.io/tags/appletv4k",
-          "accounts_today": 15,
-          "uses_today": 20,
-          "accounts_week": 22,
-          "uses_week": 27
+          "name": "characterai",
+          "url": "https://hachyderm.io/tags/characterai",
+          "accounts_today": 11,
+          "uses_today": 11,
+          "accounts_week": 26,
+          "uses_week": 31
         },
         {
           "rank": 20,
-          "name": "Grenoble",
-          "url": "https://hachyderm.io/tags/Grenoble",
-          "accounts_today": 13,
-          "uses_today": 21,
-          "accounts_week": 39,
-          "uses_week": 53
+          "name": "wishlistwednesday",
+          "url": "https://hachyderm.io/tags/wishlistwednesday",
+          "accounts_today": 5,
+          "uses_today": 5,
+          "accounts_week": 5,
+          "uses_week": 5
         }
       ]
     }
